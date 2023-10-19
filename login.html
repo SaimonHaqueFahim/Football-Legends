@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="buttons.css">
+</head>
+
+<body>
+  <div id="login-form" style="max-width: 400px;"> <!-- Adjust the max-width as needed -->
+    <img src="photos/A letter tech logo.jpg" id="logo" alt="Your Logo">
+    <h2 id="page-title">The Ultimate Football Showdown</h2>
+    <form action="login.php" method="POST">
+        <div class="form-group">
+            <label for="username">Username / Email:</label>
+            <input type="text" id="username" name="username" required style="width: 100%;">
+            <!-- Add a line break to separate the input fields -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required style="width: 100%;">
+        </div>
+
+        <button type="submit" id="login-button">Sign In</button>
+    </form>
+    <p id="login-text">Sign in with your username / email address.</p>
+</div>
+
+
+
+</body>
+
+</html>

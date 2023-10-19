@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player Information</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="buttons.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Your navigation bar code here -->
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="photos/A letter tech logo.jpg"
+            alt="Logo"
+            class="logo-image"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="player_info.html">Player Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Newsfeed</a>
+            </li>
+            <li class="nav-item">
+              <div id="login-button">
+                <a class="nav-link" href="login.html">Log In</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div id="register-button">
+                <a class="nav-link" href="register.html">Register</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="info_title">
+      <h3>Player's Information</h3>
+    </div>
+
+    <div class="container">
+      <ul class="nav nav-tabs" id="playerTabs">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="messi-tab"
+            data-toggle="tab"
+            href="#messi"
+            >Lionel Messi</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="ronaldo-tab" data-toggle="tab" href="#ronaldo"
+            >Cristiano Ronaldo</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="neymar-tab" data-toggle="tab" href="#neymar"
+            >Neymar</a
+          >
+        </li>
+      </ul>
+
+      <div class="tab-content" id="playerTabsContent">
+        <!-- Content for Messi -->
+        <div class="tab-pane fade show active" id="messi">
+          <!-- Add id="messi" here -->
+          <h2><strong>Lionel Messi</strong></h2>
+          <img
+            src="photos/721804-721276-messi-20psg-20efe_0.jpg"
+            alt="Messi's Photo"
+            class="player-photo"
+          />
+          <p>
+            Lionel Andrés Messi, also known as Leo Messi, is an Argentine
+            professional footballer who plays as a forward for and captains both
+            Major League Soccer club Inter Miami and the Argentina national
+            team.
+          </p>
+          <p><strong>Born:</strong> June 24, 1987 (age 36 years)</p>
+          <p>
+            <strong>Current teams:</strong> Inter Miami CF (#10 / Forward),
+            Argentina national football team (#10 / Forward)
+          </p>
+          <p><strong>Dates joined:</strong> 2023 (Inter Miami CF)</p>
+          <p><strong>Height:</strong> 1.7 m</p>
+          <p><strong>Spouse:</strong> Antonela Roccuzzo (m. 2017)</p>
+          <p><strong>Salary:</strong> 54 million USD (2023)</p>
+          <p><strong>Full name:</strong> Lionel Andrés Messi Cuccitini</p>
+          <p>
+            <a href="https://en.wikipedia.org/wiki/Lionel_Messi" target="_blank"
+              >Learn more about Lionel Messi</a
+            >
+          </p>
+        </div>
+        <!-- Content for Ronaldo -->
+        <div class="tab-pane fade" id="ronaldo">
+          <!-- Add id="ronaldo" here -->
+          <h2><strong>Cristiano Ronaldo</strong></h2>
+          <img
+            src="photos/GOAL_-_Blank_WEB_-_Facebook_-_2023-09-10T163322.289.jpg"
+            alt="Ronaldo's Photo"
+            class="player-photo"
+          />
+          <p>
+            Cristiano Ronaldo dos Santos Aveiro GOIH ComM is a Portuguese
+            professional footballer who plays as a forward for and captains both
+            Saudi Pro League club Al Nassr and the Portugal national team.
+          </p>
+          <p>
+            <strong>Born:</strong> February 5, 1985 (age 38 years), Hospital Dr.
+            Nélio Mendonça, Funchal, Portugal
+          </p>
+          <p>
+            <strong>Current teams:</strong> Al-Nassr FC (#7 / Forward), Portugal
+            national football team (#7 / Forward)
+          </p>
+          <p><strong>Height:</strong> 1.87 m</p>
+          <p><strong>Salary:</strong> 200 million GBP (2023)</p>
+          <p><strong>Children:</strong> Angel dos Santos Aveiro</p>
+          <p>
+            <strong>Dates joined:</strong> 2023 (Al-Nassr FC), 2021 (Manchester
+            United F.C.)
+          </p>
+          <p>2002 to 2003. Sporting CP (Portugal) 5 Goals.</p>
+          <p>2003 to 2009. Manchester United (England) 292 Games.</p>
+          <p>2009 to 2018. Real Madrid CF (Spain) 438 Games.</p>
+          <p>2018 to 2021. Juventus (Italy) 134 Games.</p>
+          <p>2021 to 2022. Manchester United (England) 54 Games.</p>
+          <p>2023 to present. Al-Nassr (Saudi Arabia)</p>
+          <p>
+            <a
+              href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+              target="_blank"
+              >Learn more about Cristiano Ronaldo</a
+            >
+          </p>
+        </div>
+        <!-- Content for Neymar -->
+        <div class="tab-pane fade" id="neymar">
+          <!-- Add id="neymar" here -->
+          <h2><strong>Neymar</strong></h2>
+          <img
+            src="photos/Neymar-1536x1024.jpg"
+            alt="Neymar's Photo"
+            class="player-photo"
+          />
+          <p>
+            Neymar da Silva Santos Júnior, known as Neymar Júnior or
+            mononymously as Neymar, is a Brazilian professional footballer who
+            plays as a forward for Saudi Pro League club Al Hilal and the Brazil
+            national team.
+          </p>
+          <p>
+            <strong>Born:</strong> February 5, 1992 (age 31 years), Mogi das
+            Cruzes, State of São Paulo, Brazil
+          </p>
+          <p>
+            <strong>Current teams:</strong> Al Hilal SFC (#10 / Forward), Brazil
+            national football team (#10 / Forward), Brazil
+          </p>
+          <p><strong>Height:</strong> 1.75 m</p>
+          <p><strong>Salary:</strong> 40.8 million GBP (2022)</p>
+          <p><strong>Parents:</strong> Neymar Santos Sr., Nadine Gonçalves</p>
+          <p>
+            <strong>Teammates:</strong> Gabriel Barbosa, Thiago Silva,
+            Marquinhos, Marcelo
+          </p>
+          <p>
+            <strong>Awards:</strong> Samba Gold, FIFA Puskás Award, FIFA FIFPro
+            World XI
+          </p>
+          <p>
+            <strong>Nominations:</strong> The Best FIFA Men's Player, FIFA
+            Ballon d'O
+          </p>
+          <p>
+            <a href="https://en.wikipedia.org/wiki/Neymar" target="_blank"
+              >Learn more about Neymar</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <div id="table_title">
+      <h3>Comparison Table</h3>
+    </div>
+
+    <table class="table custom-table">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">Category</th>
+          <th scope="col">Lionel Messi</th>
+          <th scope="col">Cristiano Ronaldo</th>
+          <th scope="col">Neymar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-data">
+          <th scope="row">Total Goals</th>
+          <td>750</td>
+          <td>805</td>
+          <td>295</td>
+        </tr>
+        <tr class="table-data">
+          <th scope="row">Total Assists</th>
+          <td>335</td>
+          <td>220</td>
+          <td>168</td>
+        </tr>
+        <tr class="table-data">
+          <th scope="row">Domestic League Titles</th>
+          <td>10</td>
+          <td>7</td>
+          <td>6</td>
+        </tr>
+        <tr class="table-data">
+          <th scope="row">UEFA Champions League Titles</th>
+          <td>4</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+        <tr class="table-data">
+          <th scope="row">Ballon d'Or Awards</th>
+          <td>7</td>
+          <td>5</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br /><br />
+
+    <footer>
+      <div class="footer-content">
+        <div class="contact-info">
+          <!-- Contact Information -->
+          <p>Contact Us: example@email.com</p>
+        </div>
+        <div class="copyright">
+          <!-- Copyright Information -->
+          <p>&copy; 2023 Your Website Name</p>
+        </div>
+        <div class="privacy-terms">
+          <!-- Privacy Policy and Terms of Service -->
+          <a href="privacy-policy.html">Privacy Policy</a> |
+          <a href="terms-of-service.html">Terms of Service</a>
+        </div>
+        <div class="social-media">
+          <!-- Social Media Icons -->
+          <a href="https://www.facebook.com"
+            ><img src="facebook-icon.png" alt="Facebook"
+          /></a>
+          <a href="https://www.instagram.com"
+            ><img src="instagram-icon.png" alt="Instagram"
+          /></a>
+          <a href="https://twitter.com"
+            ><img src="twitter-icon.png" alt="Twitter"
+          /></a>
+          <a href="https://www.youtube.com"
+            ><img src="youtube-icon.png" alt="YouTube"
+          /></a>
+          <a href="https://www.tiktok.com"
+            ><img src="tiktok-icon.png" alt="TikTok"
+          /></a>
+        </div>
+      </div>
+      <!-- Back to Top Button -->
+      <div class="back-to-top">
+        <a href="#top">Back to Top</a>
+      </div>
+    </footer>
+
+    <!-- Include jQuery, Popper.js, Bootstrap, and your custom JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/code.js"></script>
+  </body>
+</html>

@@ -1,0 +1,341 @@
+/* style.css */
+
+#header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 60px !important; /* Reduce the margin here to decrease the gap */
+}
+
+.header-content {
+    background: #c2c2a3; /* Apply the same background color */
+    padding: 20px; /* Adjust padding as needed */
+    border-bottom: 3px solid #c2c2a3; /* Add a border only to the bottom */
+}
+
+.header-content p {
+    color: red; /* Set the text color to red */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden; /* Hide the overflowing text */
+    animation: marquee 30s linear infinite; /* Apply the marquee animation */
+}
+
+/* Add some spacing for the navigation bar */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Style for the logo image */
+.logo-image {
+  max-width: 50px; /* Adjust the max width as needed */
+  height: 50px;
+}
+
+
+/* Style the navbar brand (logo) */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style the navbar links */
+.navbar-nav .nav-link {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #333; /* Change the color to your preference */
+}
+
+/* Style the active link */
+.navbar-nav .nav-item.active .nav-link {
+  color: #ff6600; /* Change the color for the active link */
+}
+
+/* Style the navbar toggler button (for mobile) */
+.navbar-toggler {
+  border: none; /* Remove the button border */
+}
+
+/* Style the navigation bar background */
+.navbar {
+  background-color: #d0d0e1 !important; /* Change to your desired color */
+}
+
+
+body {
+    background-image: url('photos/8083862_1137.jpg'); /* Replace with the path to your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Fixed background image */
+    background-position: center center; /* Center the background image */
+}
+
+
+/* Add this CSS for the breaking news scrolling effect */
+.breaking-news {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.breaking-news p {
+  animation: marquee 30s linear infinite;
+}
+
+/* Define the marquee animation */
+@keyframes marquee {
+    0% {
+        transform: translateX(100%); /* Start offscreen to the right */
+    }
+    100% {
+        transform: translateX(-100%); /* Move to the left */
+    }
+}
+
+
+.header-content {
+    background: #c2c2a3; /* Apply the same background color */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+#header h1, #header h2
+{
+  color: white;
+}
+
+/* Add text shadow to the heading title */
+#header h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+}
+
+/* Style for the text "Messi vs. Ronaldo vs. Neymar" */
+#header h2 {
+  font-size: 32px; /* Increase the font size */
+  color: #28283e; /* Change the text color to orange */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 2px; /* Add letter spacing for a bold look */
+  font-weight: bold; /* Apply bold font weight */
+  margin-top: 10px; /* Add some top margin for spacing */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+}
+
+
+#header ~ div
+{
+  margin-top: 30px;
+}
+
+#content {
+    text-align: center;
+    color: red;
+    margin-top: 10px; /* Adjust the margin-top value as needed */
+}
+
+
+/* Add a background color to the player information part */
+#header {
+    background: #c2c2a3;
+}
+
+.tab-pane.fade.show.active {
+    background-color: #f0f0f0 !important; /* Change this to the desired background color */
+    padding: 10px; /* Add padding for spacing around the content */
+    border-radius: 5px; /* Add rounded corners for a nicer look */
+}
+
+/* Add this CSS to style the player photos and details */
+.player-details {
+    display: flex; /* Use flexbox to create a horizontal layout */
+    align-items: center; /* Center items vertically within the container */
+}
+
+.player-photo {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add some spacing between the photo and details */
+}
+
+/* Style for the cover photo container */
+.cover-photo {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    height: 200px; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the cover photo horizontally */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    border: 5px solid #3498db; /* Add a solid border with the desired color */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#photo-container {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Add a simple shadow effect */
+  background-color: transparent; /* Remove the background color */
+  padding: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.middle-photo {
+  max-width: 600px; /* Adjust the maximum width as needed */
+  height: 300px; /* Maintain aspect ratio */
+  display: block; /* Center the photo horizontally */
+  margin: 0 auto; /* Center the photo horizontally */
+}
+
+
+
+.player-info {
+    flex: 1; /* Allow the player info to take up remaining space */
+}
+
+/* Optional: Adjust other styles as needed */
+.player-info h2 {
+    font-size: 24px; /* Example font size for player names */
+}
+
+.player-info p {
+    font-size: 16px; /* Example font size for player details */
+}
+
+
+/* Style for the description box */
+.description-box {
+    background-color: #f5f5f5; /* Background color for the box */
+    border: 2px solid #3498db; /* Border style */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Add padding inside the box */
+    margin-top: 20px; /* Add margin at the top for spacing */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+    text-align: justify; /* Justify the text for a clean look */
+    position: relative; /* Position for pseudo-element */
+}
+
+/* Style for the "About Us" heading inside the box */
+.description-box h1 {
+    font-size: 24px; /* Adjust the font size */
+    font-weight: bold;
+    color: #333; /* Text color */
+    margin-bottom: 10px; /* Add margin below the heading */
+}
+
+/* Style for the paragraphs inside the box */
+.description-box p {
+    font-size: 16px; /* Adjust the font size */
+    line-height: 1.5; /* Adjust line height for readability */
+    color: #666; /* Text color */
+}
+
+
+
+#table_title, #info_title
+{
+  text-align: center;
+}
+
+/* Override Bootstrap table styles for the custom-table class */
+.custom-table {
+    width: 70% !important; /* Adjust the percentage as needed */
+    margin: 0 auto !important; /* Center the table horizontally */
+    /* Add any other custom styles you want for this table */
+    border: 1px solid #000; /* Add a 1px solid black border */
+}
+
+
+
+#voting-form {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #3498db; /* Add a 2px solid border with a blue color */
+  border-radius: 10px; /* Add rounded corners */
+  padding: 20px; /* Add some padding to the form */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+  background-color: #f5f5f5; /* Add a background color */
+  width: 60%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the form horizontally after adjusting the width */
+}
+
+
+/* Center-align the submit button within the form */
+/* Add hover styling for the submit button */
+#voting-form button:hover {
+  background-color: #ff6600; /* Change the background color on hover */
+  color: white; /* Change the text color on hover */
+  border: 2px solid #ff6600; /* Add a border on hover */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+
+a:link
+{
+  color: blue;
+}
+
+a:visited
+{
+  color: #000066;
+}
+
+a:hover
+{
+  color: #b300b3;
+}
+
+h2
+{
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+}
+
+p
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Basic styling for the footer */
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center;
+}
+
+/* Style for the footer content sections */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for individual footer content elements */
+.contact-info,
+.copyright,
+.privacy-terms,
+.social-media,
+.back-to-top {
+    margin: 10px; /* Adjust margin as needed */
+}
+
+/* Style for social media icons */
+.social-media a {
+    margin-right: 10px; /* Adjust spacing between icons */
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style for small social media icons */
+.social-icon {
+  width: 20px; /* Adjust the width to your preferred size */
+  height: 20px; /* Adjust the height to maintain aspect ratio */
+  margin: 0 5px; /* Adjust spacing around each icon */
+}
+
+/* Style for the back to top button */
+.back-to-top a {
+    text-decoration: none;
+    color: #fff;
+}

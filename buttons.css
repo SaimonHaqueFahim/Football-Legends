@@ -1,0 +1,32 @@
+/* Style the Login button */
+#login-button {
+    background-color: #1877f2; /* Facebook blue */
+    color: #fff;
+    padding: 1px 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Add hover effect to the Login button */
+#login-button:hover {
+    background-color: #0e5aaf; /* Darker shade of Facebook blue */
+}
+
+/* Style the Register button */
+#register-button {
+    background-color: #42b72a; /* Facebook green */
+    color: #fff;
+    padding: 1px 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    margin-left: 7px; /* Add a left margin to create a gap */
+}
+
+/* Add hover effect to the Register button */
+#register-button:hover {
+    background-color: #368c1a; /* Darker shade of Facebook green */
+}
